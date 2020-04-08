@@ -1,0 +1,20 @@
+.ie10,
+.ie9,
+.ie8 {
+    .card-grid {
+        margin: 0;
+        font-size: 0;
+
+        &__cell {
+            font-size: normal;
+            display: inline-block;
+            vertical-align: top;
+            width: 32%;
+            box-sizing: border-box;
+            
+            &:nth-child(2) {
+                width: 36%;
+            }
+        }
+    }
+}
